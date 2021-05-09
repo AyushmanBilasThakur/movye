@@ -19,3 +19,5 @@ For build and run `yarn build-start`
 For building run `yarn build`
 
 For running your build `yarn start`
+
+Invite my bot to your server: https://discord.com/oauth2/authorize?client_id=839437888801603604&permissions=8&scope=bot
