@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "nodemon index.ts",
     "build": "tsc",
-    "start": "nodemon index.ts",
+    "start": "node ./build/index.js",
     "build-start": "tsc && node ./build/index.js"
   },
   "dependencies": {
@@ -19,10 +19,11 @@
     "node-fetch": "^2.6.1",
     "socket.io": "^4.0.1",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.4",
-    "nodemon": "^2.0.7"
+    "typescript": "^4.2.4"
+    
   },
   "devDependencies": {
-    "dotenv": "^8.5.1"
+    "dotenv": "^8.5.1",
+    "nodemon": "^2.0.7"
   }
 }
